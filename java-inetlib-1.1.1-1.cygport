@@ -1,0 +1,10 @@
+inherit ant
+
+
+HOMEPAGE="http://www.gnu.org/software/classpath/inetlib.html"
+SRC_URI="mirror://gnu/classpath/${ORIG_PN}-${PV}.tar.gz"
+
+
+ANT_BUILD_TARGETS="dist doc"
+ANT_INSTALL_JARS="*.jar"
+ANT_INSTALL_JAVADOC="doc"

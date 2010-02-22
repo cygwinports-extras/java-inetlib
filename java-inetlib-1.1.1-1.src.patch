@@ -1,0 +1,12 @@
+--- origsrc/inetlib-1.1.1/build.xml	2005-04-23 10:09:55.000000000 -0500
++++ src/inetlib-1.1.1/build.xml	2009-12-02 04:18:38.369547900 -0600
+@@ -155,8 +155,7 @@ Free Software Foundation, Inc., 59 Templ
+ 	<target name='doc' depends='init'>
+ 		<mkdir dir='${doc}'/>
+ 		<javadoc destdir='${doc}' use='true' author='true'
+-			windowtitle='GNU inetlib API documentation'
+-			classpathref='provider.classpath'>
++			windowtitle='GNU inetlib API documentation'>
+ 			<doctitle><![CDATA[<h3>GNU inetlib</h3>]]></doctitle>
+ 			<bottom><![CDATA[&copy;]]> Copyright 2003 The Free Software Foundation,
+ 			all rights reserved</bottom>
