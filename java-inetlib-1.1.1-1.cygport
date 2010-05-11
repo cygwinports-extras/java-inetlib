@@ -1,9 +1,9 @@
 inherit ant
 
-
+DESCRIPTION="GNU Java internet protocol library"
 HOMEPAGE="http://www.gnu.org/software/classpath/inetlib.html"
 SRC_URI="mirror://gnu/classpath/${ORIG_PN}-${PV}.tar.gz"
-
+PATCH_URI="1.1.1-javadoc.patch"
 
 ANT_BUILD_TARGETS="dist doc"
 ANT_INSTALL_JARS="*.jar"

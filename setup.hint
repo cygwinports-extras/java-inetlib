@@ -1,0 +1,6 @@
+category: Java
+requires: 
+sdesc: "GNU Java internet protocol library"
+ldesc: "GNU inetlib is a library of clients for common internet 
+protocols. The following protocols are currently supported: HTTP, FTP, 
+SMTP, IMAP, POP, NNTP, LDAP, Gopher, Finger."

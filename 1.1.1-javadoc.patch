@@ -1,3 +1,6 @@
+BUILD FAILED
+build.xml:159: Reference provider.classpath not found.
+
 --- origsrc/inetlib-1.1.1/build.xml	2005-04-23 10:09:55.000000000 -0500
 +++ src/inetlib-1.1.1/build.xml	2009-12-02 04:18:38.369547900 -0600
 @@ -155,8 +155,7 @@ Free Software Foundation, Inc., 59 Templ
